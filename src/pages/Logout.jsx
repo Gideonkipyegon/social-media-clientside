@@ -1,8 +1,8 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
 function Logout() {
   return (
-    <div>Logout</div>
+    <div><Link to='/'>Logout</Link></div>
   )
 }
 

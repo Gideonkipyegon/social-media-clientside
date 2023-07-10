@@ -1,0 +1,30 @@
+.notification-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    height: 100%;
+}
+
+.notification-button {
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.notification-count {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.notification-label {
+    font-size: 14px;
+    color: #777;
+}

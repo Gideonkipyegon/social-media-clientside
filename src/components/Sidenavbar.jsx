@@ -9,8 +9,8 @@ export default function Sidenavbar() {
         <div className="sidenav_title" > Profile</div>
       </div>
       <div className="sidenav_wrapper">
-        <div className="sidenav_item" >Add Post</div>
-        <div className="sidenav_item" >View Post</div> {/* Corrected component name */}
+        <div className="sidenav_item" >Create Post</div>
+        <div className="sidenav_item" >View Post</div> 
       </div>
     </div>
   );

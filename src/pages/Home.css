@@ -5,7 +5,8 @@
     align-items: center;
     align-content: center;
     flex-direction: column;
-    background-color: aqua;
+    background-color: rgb(185, 189, 189);
+    height: 100% auto;
 }
 
 h1 {
@@ -26,3 +27,16 @@ button {
     margin: 20px;
     height: 50vh;
 }
+
+
+/* .animated image {
+    width: 60%;
+    margin: 20px;
+    height: 20vh;
+}
+
+.animated image image {
+    width: 80%;
+    margin: 20px;
+    height: 50vh;
+} */
