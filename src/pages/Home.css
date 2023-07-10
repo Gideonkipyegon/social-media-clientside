@@ -1,0 +1,28 @@
+.home {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(27, 29, 29);
+}
+
+button {
+    width: 100px;
+    justify-content: center;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.home>.image {
+    width: 80%;
+    margin: 20px;
+    height: 50vh;
+}

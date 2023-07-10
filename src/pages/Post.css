@@ -1,0 +1,20 @@
+            .post {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                height: 82vh;
+                background-color: rgb(230, 234, 238);
+            }
+            
+            .postitems {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                width: 50%;
+                height: 80vh;
+                /* background-color: rgb(197, 187, 187); */
+                padding-left: 10px;
+                gap: 10px;
+                padding-top: 10px;
+                /* background-color: aqua; */
+            }

@@ -1,0 +1,42 @@
+.mainform {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(184, 191, 197);
+    gap: 10px;
+    margin: none;
+    height: 80%;
+    width: 60% auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    background-color: rgb(146, 180, 199);
+    border-radius: 15px;
+    width: 30%;
+    height: 50%;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.form input {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 5px;
+    margin: 8px;
+    text-align: center;
+    align-items: center;
+    width: 350px;
+}
+
+.form button {
+    padding: 8px;
+    margin: 10px;
+}
