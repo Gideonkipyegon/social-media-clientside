@@ -16,7 +16,6 @@ function Navbar() {
                 <Link to="/"><FaHome/> Home </Link>
                 <Link to="/Post"><FaAddressBook/> Post </Link>
                 <Link to="/Profile"> <AiFillProfile/>Profile </Link>
-                <input type="text" placeholder="search" />
                 <Link to="/Login"><AiOutlineLogin/> Login </Link>
                 <Link to="/Signup"> <FaFileSignature/>Signup </Link>
                 <Link to="/Logout"> <BiLogOutCircle/>Logout</Link>

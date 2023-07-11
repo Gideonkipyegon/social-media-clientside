@@ -11,7 +11,7 @@ export default function Mainavbar() {
             {
                 ui == 'add' ? (
                     <div className="mainnav_wrapper">
-                        <h2>Add Post</h2>
+                        <h2>Create Post</h2>
                         <PostComponent />
                     </div>
                 ) : ui == 'view' ? (
