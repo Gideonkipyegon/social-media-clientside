@@ -1,14 +1,14 @@
 import React from 'react'
 
 import Sidenavbar from '../components/Sidenavbar'
+import Mainavbar from '../components/Mainvabar'
 import './Post.css'
-// import Mainavbar from '../components/Mainvabar'
 function Post() {
   return (
     <div className='post'>
       <div className='postitems'>
       <Sidenavbar />
-      {/* < Mainavbar/> */}
+      < Mainavbar/>
     </div>
     </div>
   )

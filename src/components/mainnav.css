@@ -1,7 +1,7 @@
 .mainnav {
     width: 85%;
     height: 85vh;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 }
 
 .sidenav_title {
@@ -16,4 +16,5 @@
     margin-bottom: 1rem;
     padding-left: 1rem;
     color: rgb(85, 68, 26);
+    text-align: center;
 }

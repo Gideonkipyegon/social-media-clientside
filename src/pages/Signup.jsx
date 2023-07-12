@@ -5,14 +5,20 @@ function Signup() {
     <div className='mainform' >
       <form className="form"  >
         <legend > Sign - Up </legend>
-        <label > Full Name: </label>
-        <input type="text" placeholder="fullName" required />
-        <label > Email: </label>
-        <input type="text" placeholder="email" />
-        <label> Address: </label>
-        <input type="text" placeholder="address" />
-        <label > Phone Number: </label>
-        <input type="text" placeholder="phonenumber" required />
+        <label > Username: </label>
+        <input type="text" placeholder="username" required />
+        <label> Name: </label>
+        <input type="text" placeholder="yourname" required />
+        <label > Age: </label>
+        <input type="text" placeholder="age" />
+        <label> Gender: </label>
+        <input type="text" placeholder="gender" />
+        <label > Location: </label>
+        <input type="text" placeholder="location" required />
+        <label > Date: </label>
+        <input type="text" placeholder="date" required />
+        <label > Bio: </label>
+        <input type="text" placeholder="bio"  />
         <label > Password: </label>
         <input type="password" placeholder="Password" required />
         <label > ConfirmPassword: </label>

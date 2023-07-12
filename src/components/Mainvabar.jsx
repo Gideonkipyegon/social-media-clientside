@@ -1,9 +1,9 @@
 import './mainnav.css'
 import { useContext } from 'react'
-import { Context } from '../context/todoContext/Context'
+import { Context } from '../context/postContext/Context'
 import Profile from '../pages/Profile';
-import PostComponent from '.components/PostComponent';
-import Add from './AddPost';
+import PostComponent from '../components/PostComponent';
+// import Add from './AddPost';
 export default function Mainavbar() {
     const { ui } = useContext(Context);
     return (
@@ -17,7 +17,7 @@ export default function Mainavbar() {
                 ) : ui == 'view' ? (
                     <div className="mainnav_wrapper" >
                         <h2>View All Post</h2>
-                        <Post />
+                        {/* <Post /> */}
                     </div>
                 ) : ui == 'profile' ? (
                     <div className="mainnav_wrapper">
