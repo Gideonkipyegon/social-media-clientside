@@ -7,8 +7,11 @@ function Post() {
   return (
     <div className='post'>
       <div className='postitems'>
+      
       <Sidenavbar />
       < Mainavbar/>
+      
+      
     </div>
     </div>
   )

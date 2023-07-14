@@ -4,7 +4,7 @@ function Signup() {
   return (
     <div className='mainform' >
       <form className="form"  >
-        <legend > Sign - Up </legend>
+        <h2 style={{ textDecoration: "underline",color:'green' }}> Sign - Up </h2>
         <label > Username: </label>
         <input type="text" placeholder="username" required />
         <label> Name: </label>

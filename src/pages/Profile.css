@@ -14,7 +14,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-left: 1px dotted rgb(207, 207, 118);
+    border-left: 1px dotted rgb(175, 175, 170);
     /* padding-left: 0px; */
     font-family: 'Times New Roman', Times, serif;
     font-size: medium;
@@ -38,7 +38,8 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: rgb(109, 103, 87);
+    background-color: rgb(201, 199, 194);
+    padding: 20px;
 }
 
 .user-Details>p {
@@ -46,6 +47,7 @@
     font-weight: 400;
     color: lightgoldenrodyellow;
     padding-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .user-Details>p:hover {

@@ -11,7 +11,7 @@
 .form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 8px;
     justify-content: center;
     padding: 10px;
     text-align: center;
@@ -28,12 +28,14 @@
 .form input {
     display: flex;
     justify-content: center;
-    gap: 8px;
+    gap: 5px;
     padding: 5px;
     margin: 8px;
-    text-align: center;
+    text-align: start;
     align-items: center;
     width: 350px;
+    border-radius: 15px;
+    height: 30px;
 }
 
 .form button {

@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     margin: none;
-    height: 90vh;
+    height: 120vh;
     background-color: rgb(208, 210, 211);
 }
 
@@ -32,6 +32,7 @@
 .login-item input {
     height: 35px;
     font-size: large;
+    border-radius: 15px;
 }
 
 .login-item button {

@@ -5,9 +5,9 @@ function Login() {
     <div className="login" >
       <form className='form3'  >
         <div className="login-item" >
-          <h1 style={{ textDecoration: "underline" }} > Login Page </h1>
+          <h2 style={{ textDecoration: "underline",color:'green' }} > Login Page </h2>
           <label > UserName: </label>
-          <input type="text" placeholder="fullName" required />
+          <input type="text" placeholder="username" required />
           <label> Password: </label>
           <input type="password" placeholder="Password" required />
           <input type="submit" value="login" />

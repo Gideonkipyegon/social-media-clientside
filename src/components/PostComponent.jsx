@@ -4,6 +4,7 @@ const PostComponent = () => {
   const [postText, setPostText] = useState('');
   const [likes, setLikes] = useState(0);
   const [isShared, setIsShared] = useState(false);
+ 
 
   const handlePostChange = (event) => {
     setPostText(event.target.value);
@@ -16,9 +17,7 @@ const PostComponent = () => {
   const handleShareClick = () => {
     setIsShared(true);
   };
-  const handlePostClick = () => {
-    setIsShared(true);
-  };
+ 
 
   return (
     <div className="PostComponent">
@@ -27,7 +26,7 @@ const PostComponent = () => {
       <div className='btn'>
       <button onClick={handleLikeClick}>Like ({likes})</button>
       <button onClick={handleShareClick}>Share</button>
-      <button onClick={handlePostClick}>Post</button>
+      <button>Post</button>
       </div>
       <br />
       {isShared && <p>Post Shared!</p>}

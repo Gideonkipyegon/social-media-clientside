@@ -1,6 +1,6 @@
 .footer {
-    background-color: rgb(124, 121, 121);
-    height: 30vh;
+    background-color: black;
+    height: 40vh;
     padding-top: 20px;
     display: flex;
     justify-content: space-around;
@@ -16,9 +16,29 @@ h3 {
 }
 
 p {
-    color: black;
+    color: rgb(212, 72, 72);
     font-size: 20px;
     font-weight: 400;
-    text-transform: lowercase;
+    text-transform: uppercase;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.footeritem {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding-left: 20px;
+}
+
+.image {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.image img {
+    width: 30%;
+    height: 40%;
 }
