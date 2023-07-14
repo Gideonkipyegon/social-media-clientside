@@ -1,13 +1,15 @@
 /* Styles for the PostComponent */
 
 .PostComponent {
-    width: 400px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
     margin: 0 auto;
     padding: 20px;
     background-color: #f5f5f5;
     border: 1px solid #ccc;
     border-radius: 4px;
-    height: 60%;
+    height: 40vh;
 }
 
 .PostComponent textarea {

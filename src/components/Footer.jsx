@@ -20,8 +20,6 @@ function Footer() {
          <img src="./images/pexels-fauxels-3184435.jpg" alt="pic2" />
          <img src="./images/pexels-kerde-severin-1542252.jpg" alt="pic3" />
          <img src="./images/pexels-kindel-media-7688658.jpg" alt="pic4" />
-         <img src="./images/pexels-photomix-company-887751.jpg" alt="pic5" />
-         {/* <img src="./images/pexels-pixabay-207896.jpg" alt="pic6" /> */}
       </div>
 </div>
   );

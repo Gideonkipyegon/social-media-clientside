@@ -4,15 +4,17 @@
                 justify-content: start;
                 height: 100%;
                 background-color: rgb(233, 238, 245);
+                margin-top: 100px;
             }
             
             .postitems {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                width: 50%;
-                height: 80vh;
+                width: 100%;
+                /* height: 100vh; */
                 /* padding-left: 10px; */
                 gap: 10px;
                 /* padding-top: 10px; */
+                /* border: 4px solid greenyellow; */
             }

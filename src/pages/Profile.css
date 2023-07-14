@@ -34,12 +34,15 @@
 }
 
 .profile {
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    /* margin-top: 0; */
+    height: auto;
     background-color: rgb(201, 199, 194);
-    padding: 20px;
+    padding: 40px;
+    margin-top: 100px;
 }
 
 .user-Details>p {

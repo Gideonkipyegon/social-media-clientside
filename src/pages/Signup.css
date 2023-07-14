@@ -3,9 +3,10 @@
     justify-content: center;
     background-color: rgb(184, 191, 197);
     gap: 10px;
-    margin: none;
+    /* margin: none; */
     height: 80%;
     width: 60% auto;
+    margin-top: 100px;
 }
 
 .form {
@@ -13,7 +14,7 @@
     flex-direction: column;
     gap: 8px;
     justify-content: center;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     font-size: large;
     background-color: rgb(162, 167, 167);
@@ -21,7 +22,7 @@
     width: 40%;
     height: 50%;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 50px;
     margin-bottom: 40px;
 }
 
