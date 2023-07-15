@@ -2,6 +2,7 @@ import { useEffect, useContext, useState } from 'react'
 import axios from 'axios'
 import { Context } from "../context/postContext/Context";
 import { AiFillDelete, AiFillEdit } from 'react-icons/Ai'
+import { apidomain } from '../utils/domain';
 import './postlist.css'
 // import UpdateForm from './UpdateForm'
 
@@ -12,7 +13,7 @@ function PostList() {
     const { user } = useContext(Context)
 
     const getPosts = async () => {
-        const res = await axios.get("http://localhost:8083/Post",
+        const res = await axios.get(`${apidomain}/Post`,
             // { headers: { "Authorization": user.token } }
         )
         setPosts(res.data)
