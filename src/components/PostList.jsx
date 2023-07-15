@@ -14,7 +14,7 @@ function PostList() {
 
     const getPosts = async () => {
         const res = await axios.get(`${apidomain}/Post`,
-            // { headers: { "Authorization": user.token } }
+            { headers: { "Authorization": user.token } }
         )
         setPosts(res.data)
     }
@@ -26,8 +26,8 @@ function PostList() {
     const handleDelete = async (id) => {
         try {
             const res = await axios.delete(
-                "http://localhost:8083}/Post/${id}",
-            //     { headers: { "Authorization": user.token } }
+                `${apidomain}/Post/${id}`,
+                // { headers: { "Authorization": user.token } }
             )
             alert(res.data.message)
         } catch (error) {

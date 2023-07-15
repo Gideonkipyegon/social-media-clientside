@@ -18,7 +18,7 @@ export const ContextProvider = ({ children }) => {
   }, [state.user]);
 
   return (
-    <Context.Provider value={{ user: state.user }}>
+    <Context.Provider value={{ user: state.user,dispatch }}>
       {children}
     </Context.Provider>
   );
