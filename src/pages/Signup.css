@@ -2,9 +2,9 @@
     display: flex;
     justify-content: center;
     background-color: rgb(184, 191, 197);
-    gap: 10px;
+    gap: 1px;
     /* margin: none; */
-    height: 80%;
+    height: 150vh;
     width: 60% auto;
     margin-top: 100px;
 }
@@ -12,34 +12,39 @@
 .form {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 0.1px;
     justify-content: center;
-    padding: 20px;
+    align-items: center;
+    padding: 3px;
     text-align: center;
     font-size: large;
     background-color: rgb(162, 167, 167);
     border-radius: 15px;
     width: 40%;
-    height: 50%;
+    height: 140vh;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 180px;
     margin-bottom: 40px;
 }
 
 .form input {
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: .5px;
     padding: 5px;
-    margin: 8px;
+    /* margin-top: px; */
     text-align: start;
     align-items: center;
     width: 350px;
     border-radius: 15px;
-    height: 30px;
+    height: 5px;
 }
 
-.form button {
-    padding: 8px;
-    margin: 10px;
+.form .button {
+    padding-bottom: 15px;
+    /* margin: 1px; */
+    height: 20px;
+    background-color: black;
+    color: rgb(32, 185, 78);
+    justify-content: center;
 }

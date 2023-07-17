@@ -4,7 +4,7 @@ import { Context } from "../context/postContext/Context";
 import { AiFillDelete, AiFillEdit } from 'react-icons/Ai'
 import { apidomain } from '../utils/domain';
 import './postlist.css'
-// import UpdateForm from './UpdateForm'
+import UpdateForm from './UpdateForm'
 
 function PostList() {
     const [showEditForm, setShowEditForm] = useState(false)
@@ -14,7 +14,7 @@ function PostList() {
 
     const getPosts = async () => {
         const res = await axios.get(`${apidomain}/Post`,
-            { headers: { "Authorization": user.token } }
+            // { headers: { "Authorization": user.token } }
         )
         setPosts(res.data)
     }
@@ -31,10 +31,26 @@ function PostList() {
             )
             alert(res.data.message)
         } catch (error) {
+            console.log(error)
             alert(error.response.data.error)
         }
         getPosts()
     }
+    // const handleDelete = async (id) => {
+    //     try {
+    //         const res = await axios.delete(`${apidomain}/Post/${id}`);
+    //         alert(res.data.message);
+    //     } catch (error) {
+    //         console.log(error);
+    //         if (error.response) {
+    //             alert(error.response.data.error);
+    //         } else {
+    //             alert("An error occurred while processing your request.");
+    //         }
+    //     }
+    //     getPosts();
+    // };
+    
 
     const handleToggle = (data) => {
         setTempPost(data)

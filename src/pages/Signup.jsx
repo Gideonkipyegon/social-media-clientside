@@ -66,7 +66,7 @@ function Signup() {
         <label > ConfirmPassword: </label>
         <input type="password" {...register("confirmPassword")} placeholder="ConfirmPassword" required />
         <p>{errors.ConfirmPassword?.message}</p>
-        <input type="Submit" value="Submit" /> 
+        <input type="Submit" value="Submit" className='button' /> 
       </form >
     </div>
   )
