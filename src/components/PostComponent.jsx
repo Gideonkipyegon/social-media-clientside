@@ -49,7 +49,7 @@ const PostComponent = () => {
   return (
     <div className="formWrapper">
       <form onSubmit={handleSubmit(onSubmit)} className="Form">
-        <h1>What is in your mind????</h1>
+        <h1 style={{border:'1px black solid',width:'90%'}}>What's on your mind????</h1>
       <textarea {...register("Content")} name="Content" id="Content" />
       <br />
       <p>{errors.Content?.message}</p>

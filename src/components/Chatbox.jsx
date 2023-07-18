@@ -31,17 +31,17 @@ function Chatbox({ socket, room, name }) {
   return (
     <div className='chatbox'>
       <div className='chatbox-header'>
-        <p>Live Chat</p>
+        <p>Let's Chat</p>
       </div>
       <div className='chat-body'>
-        <ScrollToBottom className='message-container'>
+        <ScrollToBottom className='message-container1'>
           {message.map((messageContent, index) => (
             <div
               className='message'
               key={index}
               id={name === messageContent.author ? 'you' : 'other'}
             >
-              <div className='message-content'>
+            <div className='message-content'>
                 <p>{messageContent.message}</p>
               </div>
               <div className='message-meta'>

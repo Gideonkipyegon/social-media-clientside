@@ -1,7 +1,8 @@
 import { useEffect, useContext, useState } from 'react'
 import axios from 'axios'
 import { Context } from "../context/postContext/Context";
-import { AiFillDelete, AiFillEdit } from 'react-icons/Ai'
+import { AiFillDelete, AiFillEdit,AiFillLike} from 'react-icons/Ai'
+import {FaRegCommentAlt} from 'react-icons/Fa'
 import { apidomain } from '../utils/domain';
 import './postlist.css'
 import UpdateForm from './UpdateForm'
@@ -36,6 +37,19 @@ function PostList() {
         }
         getPosts()
     }
+    const handleLike = async (id) => {
+        try {
+            const res = await axios.Like(
+                `${apidomain}/Like/${id}`,
+                // { headers: { "Authorization": user.token } }
+            )
+            alert(res.data.message)
+        } catch (error) {
+            console.log(error)
+            alert(error.response.data.error)
+        }
+        getLikes()
+    }
     // const handleDelete = async (id) => {
     //     try {
     //         const res = await axios.delete(`${apidomain}/Post/${id}`);
@@ -62,9 +76,12 @@ function PostList() {
             {posts.map((post) => (
                 <div className="card" key={post.id}>
                     <p>{post.Content }</p>
-                    <AiFillDelete className='delIcon' onClick={() => handleDelete(post.id)} />
-                    <AiFillEdit className='delIcon' onClick={() => handleToggle(post)} />
+                    <div className='icons'>
+                    <AiFillLike className='delIcon' onClick={() => handleLike(Like.id)} />
+                    <FaRegCommentAlt className='delIcon' onClick={() => handleComment(Comment.id)}  />
+                    {/* <AiFillEdit className='delIcon' onClick={() => handleToggle(post)} /> */}
                     {showEditForm && <UpdateForm setShowEditForm={setShowEditForm} post={tempPost} getPosts={getPosts} />}
+                    </div>
                 </div>
             ))}
         </div>

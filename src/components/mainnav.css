@@ -2,9 +2,9 @@
     display: flex;
     justify-content: center;
     width: 85%;
-    height: 80vh;
+    height: 60vh;
     display: flex;
-    margin-top: 100px;
+    margin-top: 170px;
     margin-bottom: 60px;
     padding: -20px;
     margin-left: 170px;
@@ -26,7 +26,8 @@
     display: flex;
     height: 100px;
     width: 50vw;
-    align-items: center;
+    align-items: flex-end;
+    margin-top: 70px;
 }
 
 .mainnav_wrapper>h2 {

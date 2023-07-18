@@ -4,7 +4,7 @@ import './Home.css'
 function Home() {
   return (
     <div className='home'>
-      <h1>Welcome to my social media platform. <br />This is where you can connect with new friends all over the world✨✨✨</h1>
+      <h1>Welcome to my social media platform.✨✨✨</h1>
       <button><Link to='Post'>view post</Link></button>
       {/* <img src="./images/pexels-pixabay-207896.jpg" className='image'/> */}
       <div className='animated image'>

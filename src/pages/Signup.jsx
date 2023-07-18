@@ -38,7 +38,7 @@ function Signup() {
   return (
     <div className='mainform' >
       <form className="form" onSubmit = { handleSubmit(onSubmit) } >
-        <h2 style={{ textDecoration: "underline",color:'green' }}> Sign - Up </h2>
+        <h2 style={{ textDecoration: "underline",color:'black' }}> Sign - Up </h2>
         <label > Username: </label>
         <input type="text" {...register("Username")} placeholder="username" required />
         <p>{errors.Username?.message}</p>

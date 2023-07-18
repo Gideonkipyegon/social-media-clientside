@@ -1,28 +1,31 @@
 .sidenav {
-    width: 145px;
+    width: 170px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 100%;
+    height: 70vh;
+    /* height: 100%; */
     border-right: 1px solid #ccc;
     gap: 20px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     /* overflow-y: scroll; */
-    background-color: rgb(26, 23, 23);
+    background-color: rgb(34, 32, 32);
 }
 
 .sidenav_wrapper {
     display: flex;
     justify-content: center;
-    padding: 0.5rem 0.5rem;
+    padding: 10px;
     border-bottom: 1px solid #ccc;
-    /* margin: 10px; */
+    margin: 10px;
     background-color: gray;
+    border-radius: 15px;
     /* text-align: center; */
     /* align-items: center; */
 }
 
 .sidenav_title {
+    /* margin-top: 16px; */
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1rem;
@@ -35,7 +38,7 @@
 }
 
 .sidenav_wrapper:hover {
-    background-color: rgb(59, 59, 59);
+    background-color: rgb(114, 90, 90);
     color: white;
     cursor: pointer;
 }

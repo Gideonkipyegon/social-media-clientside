@@ -25,7 +25,7 @@ function Login() {
     if(data.token){
         dispatch({type:'LOGIN_SUCCESS', payload:data})
         alert("login successfull")
-        navigate("/");
+        navigate("/Post");
     }
    
 })
@@ -40,7 +40,7 @@ function Login() {
     <div className="login">
       <form className="form3" onSubmit={handleSubmit(onSubmit)}>
         <div className="login-item">
-          <h2 style={{ textDecoration: 'underline', color: 'green' }}>Login Page</h2>
+          <h2 style={{ textDecoration: 'underline', color: 'black' }}>Login Page</h2>
           <label>UserName:</label>
           <input type="text" {...register('Username')} placeholder="Username" required />
           <p>{errors.Username?.message}</p>
