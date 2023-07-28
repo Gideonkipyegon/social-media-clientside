@@ -1,5 +1,6 @@
 
 import React, { useContext } from 'react';
+import { Link } from 'react-router-dom'
 import { Context } from '../context/userContext/Context';
 import { useForm } from 'react-hook-form';
 import * as yup from 'yup';
@@ -47,7 +48,8 @@ function Login() {
           <label>Password:</label>
           <input type="password" {...register('Password')} placeholder="Password" required />
           <p>{errors.Password?.message}</p>
-          <input type="submit" value="Login" />
+          <p1>I dont have account:</p1><Link to='/Signup' style={{color:"blue"}}>Create</Link>
+          <input type="submit" value="Login" className='button' />
         </div>
       </form>
     </div>

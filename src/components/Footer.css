@@ -1,6 +1,7 @@
 .footer {
     background-color: black;
-    height: 40vh;
+    height: 30vh;
+    width: 100vw;
     padding-top: 20px;
     display: flex;
     justify-content: space-around;

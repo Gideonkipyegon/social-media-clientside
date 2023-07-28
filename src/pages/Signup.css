@@ -1,15 +1,14 @@
-.mainform {
+.mainform4 {
     display: flex;
     justify-content: center;
-    background-color: rgb(184, 191, 197);
+    background-color: rgb(226, 231, 235);
     gap: 1px;
-    /* margin: none; */
-    height: 150vh;
-    width: 60% auto;
-    margin-top: 100px;
+    height: 170vh;
+    width: 100%;
+    /* border: 2px solid rgb(197, 90, 90); */
 }
 
-.form {
+.form4 {
     display: flex;
     flex-direction: column;
     gap: 0.1px;
@@ -19,32 +18,46 @@
     text-align: center;
     font-size: large;
     background-color: rgb(162, 167, 167);
-    border-radius: 15px;
     width: 40%;
     height: 140vh;
     align-items: center;
-    margin-top: 180px;
-    margin-bottom: 40px;
+    margin-top: 50px;
+    margin-bottom: 700px;
+    /* border: 2px solid green; */
 }
 
-.form input {
+.formitems4 {
+    height: 130vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    /* border: 2px solid rgb(128, 0, 75); */
+}
+
+.form4 input {
     display: flex;
     justify-content: center;
-    gap: .5px;
-    padding: 5px;
+    /* gap: .5px; */
+    padding: 10px;
     /* margin-top: px; */
     text-align: start;
     align-items: center;
-    width: 350px;
-    border-radius: 15px;
-    height: 5px;
+    width: 70%;
+    /* border-radius: 15px; */
+    /* height: 0.5px; */
+    border: 2px solid green;
 }
 
-.form .button {
+.form4 .button2 {
     padding-bottom: 15px;
     /* margin: 1px; */
     height: 20px;
     background-color: black;
     color: rgb(32, 185, 78);
     justify-content: center;
+    border-radius: 15px;
+    width: 50%;
 }

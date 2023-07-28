@@ -2,6 +2,7 @@ import React from 'react'
 
 import Sidenavbar from '../components/Sidenavbar'
 import Mainavbar from '../components/Mainvabar'
+import Sidebar from '../components/Sidebar'
 import './Post.css'
 function Post() {
   return (
@@ -10,7 +11,7 @@ function Post() {
       
       <Sidenavbar />
       < Mainavbar/>
-      
+      {/* <Sidebar/> */}
       
     </div>
     </div>

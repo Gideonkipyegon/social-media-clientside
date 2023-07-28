@@ -1,31 +1,112 @@
+/* postcomponent.css */
+
 .formWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    width: 60vw;
+    height: 70vh;
+    margin-left: 20px;
+    /* border: 2px solid red; */
+}
+
+.Form {
     width: 100%;
-    padding-top: 10px;
+    margin: 30px;
+    height: 100%;
+    background-color: #eee0e0;
 }
 
-.Form>input {
-    height: 50px;
-    border-radius: 5px;
-    border: 1px solid #e9bfbf;
-    margin-bottom: 10px;
-    padding: 0 15px;
-    font-size: 16px;
-    font-weight: 400;
-    color: #333;
-    outline: none;
+.Form h1 {
+    border: 1px black solid;
+    width: 90%;
+    margin: 30px;
+    border-radius: 15px;
 }
 
-.Form>textarea {
-    min-height: 5rem;
-    height: 15rem;
+.Form textarea {
+    width: 90%;
+    height: 150px;
+    padding: 10px;
+    margin-left: 20px;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    border: 1px solid #e9bfbf;
-    margin-bottom: 10px;
-    padding: 0 15px;
-    font-size: 16px;
-    font-weight: 400;
-    color: #333;
-    outline: none;
-    width: 80%;
     resize: none;
+    /* background-color: #007bff; */
+}
+
+.Form p {
+    color: red;
+    /* margin: 5px 0; */
+}
+
+.Form input[type='submit'] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #0f0e0e;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post1 {
+    /* margin-top: 20px; */
+    /* border: 1px solid #ccc; */
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 170px;
+    margin-left: 200px;
+    /* margin-right: 70px; */
+    width: 80%;
+    /* border: 1px solid green; */
+}
+
+.post1 button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post1 span {
+    margin-left: 10px;
+}
+
+.post1 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.post1 ul li {
+    margin-bottom: 5px;
+}
+
+.post1 form input[type='text'] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.post1 form button[type='submit'] {
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.post1 div {
+    margin-top: 10px;
 }

@@ -1,0 +1,28 @@
+.friends {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center; */
+    background-color: rgb(192, 153, 102);
+    height: 100%;
+    width: 60vw;
+}
+
+.friensitem {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+
+.friendsitem a {
+    background-color: rgb(197, 163, 119);
+}
+
+
+/* img {
+    width: 30px;
+    border-radius: 50%;
+    height: 20%;
+} */

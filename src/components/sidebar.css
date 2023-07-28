@@ -1,0 +1,22 @@
+    .sidebar {
+        background-color: rgb(25, 184, 78);
+        /* margin-bottom: 200px; */
+        height: 150vh;
+        width: 20vw;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .sidebaritem {
+        background-color: rgb(216, 54, 54);
+    }
+    
+    a {
+        background-color: aqua;
+        color: rgb(30, 153, 30);
+        text-decoration: underline;
+        gap: 40px;
+        display: flex;
+        flex-direction: column;
+    }

@@ -13,6 +13,18 @@ const Reducer = (state, action) => {
             return {
                 ui: action.payload
             }
+        case "CHAT":
+            return {
+                ui: action.payload
+            }
+        case "FRIENDS":
+            return {
+                ui: action.payload
+            }
+        case "LOGIN":
+            return {
+                ui: action.payload
+            }
         default:
             return state;
     }

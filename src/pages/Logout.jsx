@@ -1,10 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Home from './Home'
 function Logout() {
   return (
     <div className='logout'>
-      <h1>Logout</h1>
-      <Link to='/'>Logout</Link>
+      
+      <Home/>
+      {/* <Link to='/'>Logout</Link> */}
       
   </div>
   )

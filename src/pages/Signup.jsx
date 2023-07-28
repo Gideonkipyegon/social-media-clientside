@@ -36,8 +36,9 @@ function Signup() {
           });
   }
   return (
-    <div className='mainform' >
-      <form className="form" onSubmit = { handleSubmit(onSubmit) } >
+    <div className='mainform4' >
+      <form className="form4" onSubmit = { handleSubmit(onSubmit) } >
+        <div className='formitems4'>
         <h2 style={{ textDecoration: "underline",color:'black' }}> Sign - Up </h2>
         <label > Username: </label>
         <input type="text" {...register("Username")} placeholder="username" required />
@@ -55,7 +56,7 @@ function Signup() {
         <input type="text" {...register("Location")} placeholder="location" required />
         <p>{errors.Location?.message}</p>
         <label > Date: </label>
-        <input type="text" {...register("Date")} placeholder="date" required />
+        <input type="date" {...register("Date")} placeholder="date" required />
         <p>{errors.Date?.message}</p>
         <label > Bio: </label>
         <input type="text" {...register("Bio")} placeholder="bio"  />
@@ -66,7 +67,8 @@ function Signup() {
         <label > ConfirmPassword: </label>
         <input type="password" {...register("confirmPassword")} placeholder="ConfirmPassword" required />
         <p>{errors.ConfirmPassword?.message}</p>
-        <input type="Submit" value="Submit" className='button' /> 
+        <input type="Submit" value="Register" className='button2' /> 
+        </div>
       </form >
     </div>
   )

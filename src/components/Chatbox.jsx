@@ -69,4 +69,3 @@ function Chatbox({ socket, room, name }) {
 }
 
 export default Chatbox;
-

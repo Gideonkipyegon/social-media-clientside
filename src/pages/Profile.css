@@ -1,54 +1,94 @@
+.profile {
+    /* margin-bottom: 40px; */
+    display: flex;
+    /* position: fixed; */
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
+    /* margin-top: 0; */
+    height: 100%;
+    width: 80vw;
+    background-color: rgb(201, 199, 194);
+    padding: 7px;
+    /* border: 2px solid rgb(121, 17, 17); */
+}
+
+.profileitems {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    margin-left: 120px;
+}
+
 .userAvator {
-    width: 50%;
-    height: 50%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
+    border: 2px solid green;
+    background-color: rgb(76, 19, 168);
+    border-radius: 15px;
+    border: 2px red solid;
 }
 
-.user-Details {
-    width: 50%;
-    height: 50vh;
-    margin-top: 100px;
+.userAvator>input {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    border-left: 1px dotted rgb(175, 175, 170);
-    /* padding-left: 0px; */
-    font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
+    align-items: end;
+    margin-left: 50px;
+    position: fixed;
 }
 
-.userAvator-img {
-    width: 50%;
-    height: 100%;
+.userAvatar-img {
+    width: 10%;
+    /* position: fixed; */
+    display: flex;
+    /* align-items: center; */
+    margin-left: 50px;
     border-radius: 50%;
     object-fit: cover;
+    padding: 25px;
+    /* margin-bottom: 100px; */
+    margin-top: 60px;
+    margin-right: 30px;
+    border: 2px red solid;
 }
 
-.userAvator-img:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: all 0.5s ease-in-out;
-}
-
-.profile {
-    /* margin-bottom: 40px; */
+.userDetails {
+    width: 50%;
+    height: 55%;
+    /* background-color: aqua; */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    /* margin-top: 0; */
-    height: 100vh;
-    width: 93.5%;
-    background-color: rgb(201, 199, 194);
-    padding: 40px;
-    margin-top: 120px;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    border-radius: 15px;
+    padding-left: 10px;
+}
+
+.user-Details h4 {
+    font-size: large;
+}
+
+.user-details1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 }
 
 .user-Details>p {
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 800;
     color: rgb(129, 7, 7);
     padding-left: 20px;
@@ -57,4 +97,8 @@
 
 .user-Details>p:hover {
     color: rgb(85, 68, 26);
+}
+
+button {
+    color: aliceblue;
 }
